@@ -4,8 +4,10 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
+    "test": "jest",
+    "start": "node dist/server.js",
     "dev": "ts-node-dev src/server.ts",
-    "test": "jest"
+    "build": "tsc"
   },
   "devDependencies": {
     "@swc/core": "^1.2.177",
